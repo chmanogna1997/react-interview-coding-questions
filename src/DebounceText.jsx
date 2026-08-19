@@ -1,3 +1,5 @@
+// Q1 — Debounced text input: show a value only after the user stops typing (timer + effect cleanup).
+
 import { useEffect, useState } from "react";
 
 function DebounceText(){

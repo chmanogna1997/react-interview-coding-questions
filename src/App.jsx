@@ -1,6 +1,7 @@
 import './App.css'
 import DebounceText from './DebounceText'
 import AutoComplete from './AutoComplete'
+import Counter from './Counter'
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
 
       {/* <DebounceText/> */}
 
-      <AutoComplete/>
+      {/* <AutoComplete/> */}
+
+      <Counter/>
 
 
     </main>

@@ -1,3 +1,5 @@
+// Q2 — Autocomplete: debounced search against the Open Library API, rendering matching book titles.
+
 import { useEffect, useState } from "react";
 
 function AutoComplete(){
