@@ -6,6 +6,8 @@ import FlattenArray from './FlattenArray'
 import TodoList from './TodoList'
 import ChatApp from './ChatApp/ChatApp'
 import Pagination from './Pagination'
+import Throttle from './Throttle/Throttle'
+import VoterBar from './VoterBar.tsx'
 
 function App() {
   return (
@@ -23,7 +25,11 @@ function App() {
 
       {/* <ChatApp/> */}
 
-      <Pagination/>
+      {/* <Pagination/> */}
+
+      {/* <Throttle/> */}
+
+       <VoterBar/>
 
 
     </main>

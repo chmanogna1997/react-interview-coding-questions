@@ -16,6 +16,7 @@ Built with React 19 + Vite.
 | 5 | **Todo list** — add, edit, delete, kept alphabetically sorted | [`src/TodoList.tsx`](src/TodoList.tsx) | immutable updates, `localeCompare`, conditional rendering |
 | 6 | **Chat UI** — unordered messages grouped by day, oldest first | [`src/ChatApp/ChatApp.jsx`](src/ChatApp/ChatApp.jsx) | date math, grouping, sorting, `Object.entries` |
 | 7 | **Pagination** — load a page at a time and append to the list | [`src/Pagination.tsx`](src/Pagination.tsx) | offset pagination, appending state, loading limits |
+| 8 | **Throttle** — update the display at a fixed rate from high-frequency messages | [`src/Throttle/Throttle.jsx`](src/Throttle/Throttle.jsx) | `useRef`, throttling, high-frequency events, `setInterval` |
 
 ## Getting started
 
