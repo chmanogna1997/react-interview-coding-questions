@@ -3,6 +3,7 @@ import DebounceText from './DebounceText'
 import AutoComplete from './AutoComplete'
 import Counter from './Counter'
 import FlattenArray from './FlattenArray'
+import TodoList from './TodoList'
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
 
       {/* <Counter/> */}
 
-      <FlattenArray/>
+      {/* <FlattenArray/> */}
+
+      <TodoList/>
 
 
     </main>
