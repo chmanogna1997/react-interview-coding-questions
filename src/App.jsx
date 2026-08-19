@@ -1,5 +1,6 @@
 import './App.css'
 import DebounceText from './DebounceText'
+import AutoComplete from './AutoComplete'
 
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
       </div>
       
 
-      <DebounceText/>
+      {/* <DebounceText/> */}
+
+      <AutoComplete/>
+
 
     </main>
   )
