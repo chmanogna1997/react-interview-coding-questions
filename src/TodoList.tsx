@@ -48,7 +48,7 @@ function TododList(){
         <div>
             <div>
             <input type = "text" value={input} onChange={(e)=>setInput(e.target.value)}/>
-            <button onClick={(e) => addElement()}>ADD</button>
+            <button onClick={() => addElement()}>ADD</button>
             </div>
             <div>
                 <ul>
@@ -56,12 +56,12 @@ function TododList(){
                         return(
                             <li key= {index} style={{display:"flex", justifyContent:'center', gap:'2rem', margin:'2rem'}}>
                                 <p>{ele}</p>
-                                <button onClick = {(e)=>{deleteData(index)}}>Delete</button>
-                                <button onClick={(e)=>{setEditFlagIndex(index)}}>Edit</button>
+                                <button onClick = {()=>{deleteData(index)}}>Delete</button>
+                                <button onClick={()=>{setEditFlagIndex(index)}}>Edit</button>
                                 {index === editFlagIndex &&
                                  <div>
                                  <input type="text" value={editData} onChange={(e)=>setEditData(e.target.value)}/>
-                                 <button onClick={(e)=> editTheData(index)}>Ok</button>
+                                 <button onClick={()=> editTheData(index)}>Ok</button>
                                  </div>
                                   }
                             </li>

@@ -33,8 +33,8 @@ function Counter(){
         <div>
             <h1>Counter : {count} </h1>
             <div style = { {display : "flex", gap: '1rem', justifyContent:"center"} }>
-                <button onClick={(e)=>changeStatus(true)}> start </button>
-                <button onClick={(e)=>changeStatus(false)}> pause </button>
+                <button onClick={()=>changeStatus(true)}> start </button>
+                <button onClick={()=>changeStatus(false)}> pause </button>
                 <button onClick={(e)=>{reset(e)}}> reset </button>
             </div>
 

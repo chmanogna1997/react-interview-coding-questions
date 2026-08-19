@@ -17,11 +17,10 @@ function Pagination(){
             setPageData((prev)=>[...prev, ...final_data.results])
 
         }catch(e){
+         console.error("failed to fetch page:", e)
          setErr(" error fetching the data")
         }
     }
-
-
     useEffect(()=>{
         getData()
     },[offset])
@@ -29,11 +28,10 @@ function Pagination(){
     function setTheCount(){
         setOffset((prev)=> prev + 20 )
     }
-
-
     return(
         <div>
             <p>In pagination </p>
+            {err && <p>{err}</p>}
             <ul>
                 {pageData && pageData.map((ele,index)=>{
                     return(
@@ -44,7 +42,7 @@ function Pagination(){
                 })}
             </ul>
 
-            <button disabled = {pageData.length >= 100 ? true : false} onClick={(e) => { 
+            <button disabled = {pageData.length >= 100 ? true : false} onClick={() => { 
                 setTheCount()
                 }}>Next</button>
         </div>

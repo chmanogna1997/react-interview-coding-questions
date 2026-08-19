@@ -1,6 +1,6 @@
 // Q4 — Flatten a nested array: recurse with Array.isArray, without using .flat().
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function FlattenArray(){
 
@@ -38,7 +38,7 @@ function FlattenArray(){
     return(
         <div>
             <input type='text' value={input} onChange={(e)=>{setInput(e.target.value)}}/>
-            <button onClick = {(e)=>getFlattenArr()}> enter </button>
+            <button onClick = {()=>getFlattenArr()}> enter </button>
             <div>
                 <p>outPut is ::: {out}</p>
             </div>

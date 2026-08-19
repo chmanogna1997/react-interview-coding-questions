@@ -46,7 +46,7 @@ function ChatApp(){
                     <div key={days}>
                         <div> Days : {days} </div>
                         <ul>
-                            {actualChat && actualChat.map((ele,index) => {
+                            {actualChat && actualChat.map((ele) => {
                                 return(
                                     <li key = {ele.id}>
                                         {ele.text}
