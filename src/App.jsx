@@ -5,6 +5,7 @@ import Counter from './Counter'
 import FlattenArray from './FlattenArray'
 import TodoList from './TodoList'
 import ChatApp from './ChatApp/ChatApp'
+import Pagination from './Pagination'
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
 
       {/* <TodoList/> */}
 
-      <ChatApp/>
+      {/* <ChatApp/> */}
+
+      <Pagination/>
 
 
     </main>
