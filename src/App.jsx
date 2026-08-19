@@ -2,6 +2,7 @@ import './App.css'
 import DebounceText from './DebounceText'
 import AutoComplete from './AutoComplete'
 import Counter from './Counter'
+import FlattenArray from './FlattenArray'
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
 
       {/* <AutoComplete/> */}
 
-      <Counter/>
+      {/* <Counter/> */}
+
+      <FlattenArray/>
 
 
     </main>
