@@ -8,6 +8,7 @@ import ChatApp from './ChatApp/ChatApp'
 import Pagination from './Pagination'
 import Throttle from './Throttle/Throttle'
 import VoterBar from './VoterBar.tsx'
+import MenuBar from './MenuBar.tsx'
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
 
       {/* <Throttle/> */}
 
-       <VoterBar/>
+       {/* <VoterBar/> */}
+       <MenuBar/>
 
 
     </main>

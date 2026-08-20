@@ -17,6 +17,8 @@ Built with React 19 + Vite.
 | 6 | **Chat UI** — unordered messages grouped by day, oldest first | [`src/ChatApp/ChatApp.jsx`](src/ChatApp/ChatApp.jsx) | date math, grouping, sorting, `Object.entries` |
 | 7 | **Pagination** — load a page at a time and append to the list | [`src/Pagination.tsx`](src/Pagination.tsx) | offset pagination, appending state, loading limits |
 | 8 | **Throttle** — update the display at a fixed rate from high-frequency messages | [`src/Throttle/Throttle.jsx`](src/Throttle/Throttle.jsx) | `useRef`, throttling, high-frequency events, `setInterval` |
+| 9 | **Voter leaderboard** — display top 3 with progress bars and voting buttons | [`src/VoterBar.tsx`](src/VoterBar.tsx) | state updates, sorting, immutable arrays, `.map().sort()` |
+| 10 | **Dropdown menu** — nested items toggled by click with position absolute | [`src/MenuBar.tsx`](src/MenuBar.tsx) | conditional rendering, event handling, toggle state |
 
 ## Getting started
 

@@ -71,6 +71,7 @@ function VoterBar() {
         )
         .sort((a, b) => b.votes - a.votes)
     );
+
   }
 
   return(
