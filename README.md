@@ -19,6 +19,7 @@ Built with React 19 + Vite.
 | 8 | **Throttle** — update the display at a fixed rate from high-frequency messages | [`src/Throttle/Throttle.jsx`](src/Throttle/Throttle.jsx) | `useRef`, throttling, high-frequency events, `setInterval` |
 | 9 | **Voter leaderboard** — display top 3 with progress bars and voting buttons | [`src/VoterBar.tsx`](src/VoterBar.tsx) | state updates, sorting, immutable arrays, `.map().sort()` |
 | 10 | **Dropdown menu** — nested items toggled by click with position absolute | [`src/MenuBar.tsx`](src/MenuBar.tsx) | conditional rendering, event handling, toggle state |
+| 11 | **Accordion** — collapsible FAQ items using Context API | [`src/Accordion/Accordion.jsx`](src/Accordion/Accordion.jsx) | Context API, useContext, avoid prop drilling |
 
 ## Getting started
 
